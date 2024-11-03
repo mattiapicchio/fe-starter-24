@@ -76,5 +76,3 @@ Run all linting/formatting:
 ```bash
 npx next lint
 ```
-
-npx next lint
