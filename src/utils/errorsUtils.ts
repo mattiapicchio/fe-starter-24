@@ -17,7 +17,7 @@ export function catchError<T>(promise: Promise<T>): Promise<[undefined, T] | [Er
 }
 
 /* 
-catchError with custom defined errors and errors type safety 
+catchError with optional custom defined errors and errors type safety 
 (to only catch custom defined errors of the specific type) 
 */
 export function catchErrorTyped<T, E extends new (message?: string) => Error>(
