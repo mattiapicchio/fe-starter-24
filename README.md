@@ -65,14 +65,12 @@ npm run start
       |..
 ```
 
----
-
 ### Linting/Formatting
 
 Make sure you have Prettier and ESLint working in your editor.
 
 Run all linting/formatting:
 
-```bash
+```sh
 npx next lint
 ```
